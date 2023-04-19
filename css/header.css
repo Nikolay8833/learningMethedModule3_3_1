@@ -21,6 +21,10 @@
   text-transform: uppercase;
 }
 
+.navigation__item:hover {
+  color: #CD06FF;
+}
+
 .button {
   font-weight: 700;
   font-size: 22px;

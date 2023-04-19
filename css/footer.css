@@ -31,9 +31,17 @@
   margin-bottom: 10px;
 }
 
+.contacts__phone:hover > .contacts__text {
+  color: #CD06FF;
+}
+
 .contacts__email {
   background: url("../img/email.svg") no-repeat;
   margin-bottom: 40px;
+}
+
+.contacts__email:hover > .contacts__text {
+  color: #CD06FF;
 }
 
 .social__item {
@@ -77,3 +85,7 @@
   font-size: 14px;
   line-height: 16px;
 }
+
+.footer__email:hover {
+  color: #CD06FF;
+} 

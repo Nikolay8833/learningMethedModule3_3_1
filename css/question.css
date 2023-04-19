@@ -9,6 +9,56 @@
   background: #440F51;
 }
 
+.question__item:hover > .question__img {
+  background: #FFFFFF;
+}
+
+.question__item:hover > .question__img::before {
+  background: #6C0287;
+}
+
+.question__item:hover > .question__img::after {
+  background: #6C0287;
+}
+
+.question__item:active > .question__img {
+  border: 2px solid #FFFFFF;
+  background: none;
+}
+
+.question__item:active > .question__img::before {
+  background: none;
+}
+
+.question__item:active > .question__img::after {
+  background: #FFFFFF;
+}
+
+.question__item:hover > .question__img--purple {
+  background: #6C0287;
+}
+
+.question__item:hover > .question__img--purple::before {
+  background: #FFFFFF;
+}
+
+.question__item:hover > .question__img--purple::after {
+  background: #FFFFFF;
+}
+
+.question__item:active > .question__img--purple {
+  border: 2px solid #6C0287;
+  background: none;
+}
+
+.question__item:active > .question__img--purple::before {
+  background: none;
+}
+
+.question__item:active > .question__img--purple::after {
+  background: #6C0287;
+}
+
 .question__text {
   position: relative;
   color: #1C1A1A;
@@ -53,31 +103,6 @@
   background: #FFFFFF;
 }
 
-.question__img:hover {
-  background: #FFFFFF;
-}
-
-.question__img:hover::before {
-  background: #6C0287;
-}
-
-.question__img:hover::after {
-  background: #6C0287;
-}
-
-.question__img:focus {
-  border: 2px solid #FFFFFF;
-  background: none;
-}
-
-.question__img:focus::before {
-  background: none;
-}
-
-.question__img:focus::after {
-  background: #FFFFFF;
-}
-
 .question__img--purple {
   border: 2px solid #6C0287;
   transition-duration: 0.2s;
@@ -88,30 +113,5 @@
 }
 
 .question__img--purple::after {
-  background: #6C0287;
-}
-
-.question__img--purple:hover {
-  background: #6C0287;
-}
-
-.question__img--purple:hover::before {
-  background: #FFFFFF;
-}
-
-.question__img--purple:hover::after {
-  background: #FFFFFF;
-}
-
-.question__img--purple:focus {
-  border: 2px solid #6C0287;
-  background: none;
-}
-
-.question__img--purple:focus::before {
-  background: none;
-}
-
-.question__img--purple:focus::after {
   background: #6C0287;
 }
